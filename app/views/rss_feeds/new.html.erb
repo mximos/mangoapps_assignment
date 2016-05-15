@@ -1,0 +1,20 @@
+<!-- Page Heading -->
+<div class="row">
+  <div class="col-lg-12">
+    <h1 class="page-header">
+      New Feed Channel
+    </h1>
+    <ol class="breadcrumb">
+      <li>
+        <i class="fa fa-fw fa-wrench"></i>
+        <%= link_to "Manage Feeds", rss_feeds_path %>
+      </li>
+      <li class="active">
+        <i class="fa fa-edit"></i> New
+      </li>
+    </ol>
+  </div>
+</div>
+<!-- /.row -->
+
+<%= render 'form' %>

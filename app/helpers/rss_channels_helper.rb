@@ -1,0 +1,2 @@
+module RssChannelsHelper
+end
